@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon ./bin/www",
+    "debug": "env=development nodemon ./bin/www",
     "lint": "eslint ./routes ./app.js --ext .js --fix"
   },
   "dependencies": {
